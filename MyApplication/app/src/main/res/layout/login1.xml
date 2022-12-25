@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_200">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login Table Layout"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+    </TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textSize="14dp" />
+
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:text="Username"
+               android:textSize="14dp"
+               />
+           <EditText
+               android:text="enter id"
+               android:layout_width = "wrap_content"
+               android:layout_height = "wrap_content"
+               android:inputType = "text" />
+       </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Password"
+            android:textSize="14dp"
+            />
+        <EditText
+            android:text="enter password"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            />
+    </TableRow>
+
+   <TableLayout>
+
+       <TableRow>
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="OK"
+               android:textColor="@color/white"
+               android:layout_marginLeft="20dp"
+               />
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="CANCEL"
+               android:textColor="@color/white"
+               />
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="FORGET PASSWORD"
+               android:textColor="@color/white"
+               android:layout_marginRight="20dp"
+               />
+       </TableRow>
+   </TableLayout>
+</TableLayout>
